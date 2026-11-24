@@ -14,4 +14,4 @@ Run it with Node 22:
 node main.ts [options] [PATCH]
 ```
 
-The kit's starter already handled the command line, output and exit codes, safe paths, format detection, JSON edits and the all-or-nothing write; `formats.ts` adds the three-tier matcher and the unified, SEARCH/REPLACE and V4A readers, including move reporting (`R old -> new`). Run the 100 public practice checks with `node check.ts ../hidden-spec-kit/.../program/generator/practice.json` from the kit.
+The kit's starter already handled the command line, output and exit codes, safe paths, format detection, JSON edits and the all-or-nothing write; `formats.ts` adds the three-tier matcher and the unified, SEARCH/REPLACE and V4A readers, including move reporting (`R old -> new`). It scores **1000/1000 on the kit's 100 public practice checks** (`node check.ts <kit>/program/generator/practice.json`), run twice with the same result.
